@@ -1,0 +1,24 @@
+body{
+		position: relative;
+	background-color:#855DA1;
+	z-index: 0;
+}
+.outer{
+	color: 	#E8CCFF;
+	position: relative;
+	top:8%;
+	right: 8%;
+	left: 8%;
+	bottom: 8%;
+	width:980px; 
+	height: 1290px;
+	border:5px solid #B088FF;
+		z-index: 1;
+}
+
+.NameColumn{
+	top:10%;
+	background-color: 	#D28EFF;
+	width:300px;
+	display: flex;
+}

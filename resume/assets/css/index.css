@@ -1,0 +1,278 @@
+body{
+	position:relative;
+	background-color: 	#556B2F;
+	z-index: -2;
+	height:1680px;
+}
+.outer{
+	background-color: 	#F0FFF0;
+    position: relative;
+    top: 80px;
+    right: 5%;
+    left: 5%;
+    width: 90%;
+    border: 10px solid 	#556B2F;
+    z-index: -1;
+}
+.NameColumn{
+	top:10%;
+	left:-5%;
+	background-color:	#FFFF77;
+	width:45%;
+	display: flex;
+	color:	#888800;
+	transform: translate(-20%,-20%);
+	padding: 20px 100px;
+	justify-content: center;
+	align-items: center;
+ box-shadow: 12px 12px 7px rgba(0, 0, 0, 0.7);
+
+}
+.profile{
+	border-radius: 50%;
+	max-width: 180px;
+	max-height:180px;
+}
+.name{
+	padding-left: 20px;
+	font-family: 'Baloo Bhai';
+	font-size:52px;
+}
+.flex{
+	display: flex;
+	flex-direction: row;
+	position: relative;
+}
+
+.container{
+flex:50%;
+ margin: 5px;
+position: relative;
+background-color: inherit;
+
+}
+
+.introduction{
+
+	width:70%;
+	font-family: '微軟正黑體';
+	font-size: 18px;
+	margin: 0px;
+	padding-left:12%;
+}
+.quote{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: bold;
+	font-size: 24px;
+	
+}
+.left-column , .right-column{
+	
+	flex-direction:column;		 
+}
+
+.program{
+	width: 65%;
+	transform: translate(10%,-33%);
+}
+.skillbox{
+	box-sizing: border-box;
+	flex-direction: row;
+	margin: 5px;
+	padding: 5px;
+	color:#886600;
+	font-family: 'Baloo Bhai';
+	font-size: 20px;
+}
+
+.skill_title , .course ,.club_experience_Title,.work_experience_Title,.contact_title{
+	color:	#888800;
+	font-family: '微軟正黑體';
+	font-weight: bolder;
+	font-size: 36px;
+}
+.skill{
+	background-color: #262626;
+	padding: 4px;
+	box-sizing: border-box;
+	color:white;
+	border-radius: 50px;
+}
+.skill_level{
+	background-color: #55AA00;
+	border-radius: 50px;
+	text-align: right;
+	height:20px;
+}
+.c{
+	animation-name: skillc;
+	animation-duration: 3s;
+}
+.java{
+	animation-name: skilljava;
+	animation-duration: 3s;
+}
+.html{
+	animation-name: skillhtml;
+	animation-duration: 3s;
+}
+.jsp{
+	animation-name: skilljsp;
+	animation-duration: 3s;
+}
+.photo{
+	animation-name: skillphoto;
+	animation-duration: 3s;
+}
+@keyframes skillc{
+	0%{width: 0%}
+	100%{width: 63%}
+}
+@keyframes skilljava{
+	0%{width: 0%}
+	100%{width: 75%}
+}
+@keyframes skillhtml{
+	0%{width: 0%}
+	100%{width: 80%}
+}
+@keyframes skilljsp{
+	0%{width: 0%}
+	100%{width: 68%}
+}
+@keyframes skillphoto{
+	0%{width: 0%}
+	100%{width: 78%}
+}
+button {
+  border: 2px solid #888800;
+	color:#886600;
+	font-family: '微軟正黑體';
+  padding: 8px;
+  font-size: 18px;
+  cursor: pointer;
+  height: 50px;
+  background-color: #F0FFF0;
+  font-weight: bold;
+}
+button:hover {
+  color: white;
+font-family: '微軟正黑體';
+  background-color: #888800;
+ }
+.person-inf{
+	padding-left: 20%;
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+
+}
+.social{
+	padding:20px;
+}
+.person-inf span{
+	color:#886600;
+	padding:5px;
+}.course{
+	padding-left: 15%;
+	padding-top: 8%;
+}
+.accordion {
+  background-color:#CCEEFF;
+  color: 	black;
+  cursor: pointer;
+  padding: 18px;
+		width:90%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+  margin:10px;
+}
+
+.active, .accordion:hover {
+  background-color: #FFA488;
+  color:black;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color:#F0FFF0;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  width:80%;
+  font-size: 14px;
+  color:black;
+}
+.panel img{
+	width:150px;
+	height:200px;
+	float: left;
+
+}
+.club_experience img{
+	max-width:150px;
+	max-height:200px;
+	float: left;
+}
+
+.work_experience img{
+	max-width:150px;
+	max-height:200px;
+	float: left;
+}
+
+.club_experience{
+	transform: translate(5%,-25%);
+}
+
+.work_experience{
+	transform: translate(5%,-15%);
+}
+.e_content{
+	font-family: '微軟正黑體';
+	font-size:14px;
+	display: block;
+	align-content: center;
+	max-width:75%;
+	max-height:230px;
+	padding:10px;
+}
+.senior,.university{
+	padding:5px;
+	padding-top: 20px;
+}
+.e_content_title{
+	font-weight: bold;
+	color:#003377;
+	font-size: 16px;
+}
+.contact{
+	margin-left: 20%;
+	background-color: #FFEE99;
+	width: 55%;
+	height:200px;
+	padding:20px;
+	margin-top:10%; 
+
+
+	
+}
+.contact_title{
+	padding:20px;
+}
+.contact_content{
+	font-size:18px;
+	padding: 20px;
+	font-family: '微軟正黑體';
+	color:black;
+}
+.contact_b{
+	width: 100%;
+	border: 5px dashed white;
+
+}
